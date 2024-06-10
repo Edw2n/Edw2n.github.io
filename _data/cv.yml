@@ -2,40 +2,52 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Eunsu Baek
+    - name: Label
+      value: PHD Student
+    - name: Email
+      value: beshu9407@snu.ac.kr
+    - name: URL
+      value: <a href="https://Edw2n.github.io">homepage</a>
+    - name: Github
+      value: <a href="https://github.com/Edw2n">github</a>
     - name: Languages
-      value: English, German
+      value: Korean, English
+    - name: Summary
+      value: I'm a blabla
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Student
+      institution: Seoul National University, Seoul, Republic of Korea
+      year: 2022-current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Graduate School of Data Science
+        - AIoT Lab (advisor - prof. Hyung-Sin Kim)
+    - title: MS
+      institution: Seoul National University, Seoul, Republic of Korea
+      year: 2020-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Computer Science and Engineering
+        - HCIL Lab (advisor - prof. Jin-wook Seo)
+    - title: BS
+      institution: Sookmyung Women's University, Seoul, Republic of Korea
+      year: 2013-2018
+      description:
+        - Mathematics
+        - Computer Science
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data scientist and researcher
+      institution: AIoT lab, Seoul National University, Seoul, Republic of Korea
+      year: 2022.07 - current
       description:
-        - Description 1.
+        - title: "MIRROR: Towards Generalizable On-Device Video Virtual Try-On for Mobile Shopping (IMWUT’ 23, UbiComp’ 24)"
+          contents:
+          -  <a href="https://drive.google.com/file/d/13NDMHSSWYu1VUvYSfsysHjeozpBgoxP1/view?usp=sharing">[pdf]</a>
         - Description 2.
         - title: Description 3.
           contents:

@@ -1,9 +1,25 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# "AJP":
+#   url: https://aapt.scitation.org/journal/ajp
+#   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+# "PhysRev":
+#   url: https://journals.aps.org/
 
-"Vision":
+# "Vision":
+#   color: "#009f36"
+
+# "Virtual Try-On":
+
+"CVPR":
+  url: https://cvpr.thecvf.com
   color: "#009f36"
+
+# "UbiComp":
+#   color: "#009f36"
+
+"MobiSys":
+  url: https://www.sigmobile.org/mobisys/
+  color: orange
+
+"IMWUT/UbiComp":
+  url: https://www.ubicomp.org/ubicomp-iswc-2024/

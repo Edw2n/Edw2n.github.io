@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Google coral board
+description: "Crowd2Crowd(C2C): Bidirectional data market platform for on-demand dataset request with automatic data quality control"
 img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: true
+importance: 2
+category: competition
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.
