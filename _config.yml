@@ -260,10 +260,10 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-scholar:
-  source: _bibliography
-  bibliography: papers.bib
-  details_link: true
+# scholar:
+#   source: _bibliography
+#   bibliography: papers.bib
+#   details_link: true
 
 # Sitemap settings
 defaults:
