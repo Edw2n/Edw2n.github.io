@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Crowd2Crowd
-description: "C2C: Bidirectional data market platform for on-demand dataset request with automatic data quality control<p style='text-align:right; color:gray'>2022 SS</p>"
+description: "C2C: Bidirectional data market platform for on-demand dataset request with automatic data quality control<p style='text-align:right; color:gray'>2023 SS</p>"
 img: assets/img/projects/c2c/c2c-main.png
 importance: 1
 category: coursework
