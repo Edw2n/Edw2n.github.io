@@ -4,7 +4,7 @@ title: MRViz
 description: "MRViz: Visualization System for Analyzing Reliability of CNN-based Deep Learning Model<p style='text-align:right; color:gray'>2021.03 - 2022.02</p>"
 
 img: assets/img/projects/mrviz/mrviz-main.png
-importance: 2
+importance: 4
 category: research
 related_publications: false
 ---

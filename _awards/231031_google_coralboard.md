@@ -14,6 +14,7 @@ related_publications: false
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/awards/231031_coralboard/coralboard-award.jpg" title="award" class="img-fluid rounded z-depth-1" %}
     </div>
+    <p>I took the 1st place in Google Coral-board Challenge (Navible: Navigation for blinds) .</p>
 </div>
 
 <div class="caption">

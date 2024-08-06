@@ -3,7 +3,7 @@ layout: page
 title: SilverStone
 description: "SilverStone: Research and development of privacy-preserving techniques for deep learning technologies in server offloading scenarios.<p style='text-align:right; color:gray'>2019.05 - 2019.10</p>"
 img: assets/img/projects/silverstone/silverstone-pipeline.png
-importance: 3
+importance: 5
 category: research
 related_publications: false
 ---

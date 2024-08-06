@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chatgpt+
-description: "Chatgpt+"
+description: coming soon
 img: assets/img/12.jpg
 importance: 8
 category: coursework

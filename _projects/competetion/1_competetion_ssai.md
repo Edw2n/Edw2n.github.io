@@ -1,81 +1,91 @@
 ---
 layout: page
-title: Samsung AI Challenge (2024)
-description: "Crowd2Crowd(C2C): Bidirectional data market platform for on-demand dataset request with automatic data quality control"
-img: assets/img/12.jpg
+title: "Samsung AI Challenge"
+description: "Competition on Developing Domain Adaptive Semantic Segmentation Algorithms for Autonomous Driving (1st place)<p style='text-align:right; color:gray'>2024.09</p>"
+img: assets/img/awards/231030_ss_ai/ss_problem.png
 importance: 1
 category: competition
 related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231030_ss_ai/teams.png" title="Team" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231030_ss_ai/zoomshot.jpg" title="award 1" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231030_ss_ai/fullshot.jpg" title="award 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Keondo and I were invited to the Samsung AI Forum, where we received the 1st place award in the Samsung AI Challenge.
+    <p>(Prize: 10 million KRW)</p>
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+   
+  
+    
+##### <b>[Problem]</b>
+Autonomous driving leverages various sensors to perceive the surrounding environment and control the vehicle accordingly. In the case of camera sensors, differences between images (Domain Gap) occur depending on factors like the installation position, type of sensor, and driving environment. Previous studies have widely applied Unsupervised Domain Adaptation techniques to overcome recognition performance degradation due to discrepancies in photometry and texture between images. However, most existing research does not consider the geometric distortions caused by the optical properties of cameras. Therefore, in this competition, we propose **the development of AI algorithms that perform high-performance Semantic Segmentation on distorted images (Target Domain: *Fisheye) by utilizing non-distorted images (Source Domain) and their labels.**
+- *Fisheye: Images captured with a fisheye lens that has a 200° Field of View (200° F.O.V)
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231030_ss_ai/ss_problem.png" title="problem" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
+  
+
+##### <b>[Our solution]</b>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231030_ss_ai/vit-adapter.png" title="model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    We fine-tuned the ViT-Adapter-L model [2], pre-trained on Cityscapes [1], on the competition dataset.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231030_ss_ai/barrel-distortion.png" title="strategy-1" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    [ Strategy 1 ] Barrel distortion data augmentation: We obtain target domain images and labels from source domain data by applying barrel distortion and cropping the valid areas from the distorted images.
+</div>
 
-{% endraw %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231030_ss_ai/background-extraction.png" title="strategy-2" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    [ Strategy 2 ] Fisheye background area extraction:We extract the fisheye background area from the target domain data and synthesize it with the barrel-distorted image for model training.
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231030_ss_ai/ensemble.png" title="strategy-3" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    [ Strategy 3 ] Pseudo-labels generation for target images using ensemble.
+</div>
+
+##### <b>[Results]</b>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231030_ss_ai/result.png" title="strategy-3" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    We achieved 1st place in both the public and private scores!
+    <p>(Public score: mIoU 0.67502 , Private score: mIoU 0.67711)</p>
+</div>
+
+##### <b>[References]</b>
+[1] M. Cordts et al, “The Cityscapes Dataset for Semantic Urban Scene Understanding,” in Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.  
+[2] https://github.com/czczup/ViT-Adapter  

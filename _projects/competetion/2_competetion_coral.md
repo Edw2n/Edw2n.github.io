@@ -1,81 +1,95 @@
 ---
 layout: page
-title: Google coral board
-description: "Crowd2Crowd(C2C): Bidirectional data market platform for on-demand dataset request with automatic data quality control"
-img: assets/img/12.jpg
+title: "Google Coral board challenge"
+description: "Navible: Navigation for Blinds (1st place)<p style='text-align:right; color:gray'>2022.08</p>"
+img: assets/img/awards/231031_coralboard/prototype-only.png
 importance: 2
 category: competition
 related_publications: false
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231031_coralboard/coralboard-award.jpg" title="award" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    <p>My team (Jupyo, Sehyun, Dongik and me) took 1st place in Google Coral-baord Competition 2022.😄</p>
 </div>
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    <iframe src="https://drive.google.com/file/d/1nrZ772JX_iV1et_t5Ufu2LcuKqayzHjC/preview" width="640" height="480" allow="autoplay"></iframe>
+    <p>Navible demo video.</p>
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<div class="caption">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rzmtgCsuhdI?si=SU30K1621cC6xKsb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Navible presentation video. <a href="https://docs.google.com/presentation/d/1TuugeDejNbxHjk7PxlzHsoxGEJME4_qQ/edit?usp=sharing&ouid=102642115745426098221&rtpof=true&sd=true">[slides]</a></p>
+</div>
+
+##### <b>[Competetion description]</b>
+- Develop a Coral board AI application with a free topic in 3 weeks.  
+- Host: SNU GSDS.    
+- Sponsorship: Google Coral AI.  
+
+
+##### <b>[Proposed Solution]</b>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231031_coralboard/navible-scenario.png" title="scenario" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">
+    NaviBl Scenario:
+    <p>Provide the visually impaired with correct directional guidance and hazard alerts based on real-time traffic conditions,  
+    leveraging a Coral board and auditory feedback.</p>
+    </div> 
+</div>
+
+To support a real-time scenario, we adopt the following strategies:
+- **Light-weight Models**: We applied 8-bit quantization to two YOLOv5-based detection models and converted them to EdgeTPU-compatible formats to run on the Coral board.
+- **Efficient Resource Scheduling**: Prioritized scheduling for vehicle detection (2.5 fps) and crosswalk/traffic light detection (1 fps).
+- **Computation Minimization**: Reduce computation for feedback operations based on priority.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231031_coralboard/system-design-navible.png" title="scenario" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+    [Starategy 1 and 2] Light-weight model and system design for NaviBl with an efficient resource scheduling.
+    </div>     
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231031_coralboard/navible-algorithm.png" title="scenario" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">    
+    [Starategy 3] Priority based feedback algorithm.
+    </div>
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231031_coralboard/navible-prototype.png" title="scenario" class="img-fluid rounded z-depth-1" %}
+    </div>    
+    <div class="caption">    
+    [Prototypes]: Wearable device for Navible
+    </div>
+</div>
+
+##### <b>[Results]</b>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231031_coralboard/coral-summary.png" title="performance" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Summary of Navible system performance.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/awards/231031_coralboard/coral-feedback.png" title="feedback" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
-
-{% endraw %}
+<div class="caption">
+    Feedbacks to Google Coral.
+</div>
