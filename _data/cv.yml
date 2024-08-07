@@ -14,7 +14,8 @@
     - name: Languages
       value: Korean, English
     - name: Summary
-      value: I'm a blabla
+      value: "I have extensive experience in data-driven AI, focusing on high-quality data acquisition through sensor control. I collected new datasets (ImageNet-ES: 202K, ImageNet-ES-Natural: 115.2K) to address robustness and covariate shift issues. Proficient in domain adaptation, out-of-distribution detection, explainable AI, and model robustness, I have completed multiple projects and courses, served as a TA, and received several AI-related awards. My interests include Virtual Try-On, Accessibility, and Health applications."
+
 
 - title: Education
   type: time_table
@@ -38,72 +39,158 @@
         - Mathematics
         - Computer Science
 
-- title: Research Experience
+- title: Research Experience with Publications
   type: time_table
   contents:
     - title: Data scientist and researcher
       institution: AIoT lab, Seoul National University, Seoul, Republic of Korea
       year: 2022.07 - current
       description:
-        - title: "MIRROR: Towards Generalizable On-Device Video Virtual Try-On for Mobile Shopping (IMWUT’ 23, UbiComp’ 24)"
-          contents:
-          -  <a href="https://drive.google.com/file/d/13NDMHSSWYu1VUvYSfsysHjeozpBgoxP1/view?usp=sharing">[pdf]</a>
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "ImageNet-ES: Unexplored Faces of Robustness and Out-of-Distribution: Covariate Shifts in Environment and Sensor Domains. (CVPR’ 24) "
+        - "MIRROR: Towards Generalizable On-Device Video Virtual Try-On for Mobile Shopping. (IMWUT‘ 23 & UbiComp‘ 24)"
+        - "Out-of-Distribution Detection with Uncertainty Quantification for Optical Diagnosis of Colorectal Polyps (CKAIA’ 24)"
+        - "Lens: Adaptive Camera Sensor for Vision Models. (will be submitted to ICLR‘ 25)"
+          
+    - title: Research Assistant, Intern
+      institution: HCIL Lab, Seoul National University, Seoul, Republic of Korea
+      year: 2019.10 - 2022.02
       description:
-        - Description 1.
-        - Description 2.
+        - "MRViz: Visualization System for Analyzing Reliability of CNN-based Deep Learning Model"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Intern
+      institution: HCS lab, Seoul National University, Seoul, Republic of Korea
+      year: 2019.05 - 2022.09
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+      - "SilverStone: Research and Development on Privacy Preserving Techniques for Server Offloading-based Deep Learning Technology"
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/Jingkang50/OpenOOD"> OpenOOD&#58; Benchmarking Generalized OOD Detection</a>
+      year: 2024
+      description: My dataset (<a href="https://github.com/edw2n/ImageNet-ES"> ImageNe-ES, CVPR 2024</a>) has been integrated into the <a href="https://github.com/Jingkang50/OpenOOD"> OpenOOD</a> benchmark.
+
+# - title: REPRESENTATIVE PROJECTS
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/Jingkang50/OpenOOD"> OpenOOD&#58; Benchmarking Generalized OOD Detection</a>
+#       year: 2024
+#       description: My dataset (<a href="https://github.com/edw2n/ImageNet-ES"> ImageNe-ES, CVPR 2024</a>) has been integrated into the <a href="https://github.com/Jingkang50/OpenOOD"> OpenOOD</a> benchmark.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: People’s Choice Demo Runner-up Award, Mobisys 2024
+      year: 2024
+      description:
+        - On-Device Video Virtual Try-On for Mobile Shopping People’s Choice Demo Runner-up Award, Mobisys 2024
+    
+    - title: Travel funds, CVPR 2024
+      year: 2024
+      description:
+        - Received $400 support from CVPR for business trips.
+    
+    - title: SAMSUNG AI Challenge Award, SAIT
+      year: 2023
+      description:
+        - Camera-Invariant Domain Adaptation.
+        - 1st place (of 212 teams), awarded $7,611
+    
+    - title: Medical AI Scholarship, SNU AIMED
+      year: 2023 - current
+      description:
+        - receiving $3,805 every semesters
+    
+    - title: Coral Competition Award, Google-SNU
+      year: 2022
+      description:
+        - NaviBl: Navigation for Blinds.
+        - 1st place, awarded $1,522
+    
+    - title: GSDS Development Fund Scholarship, SNU GSDS
+      year: 2022
+      description:
+        - Supported by software overseas support foundation.
+        - awarded $7,611
 
-- title: Academic Interests
+    - title: Sookmyung Debate Competition Award, SMWU
+      year: 2017
+      description:
+        - "Artificial Intelligence: The Future Apocalypse."
+        - Outstanding awarded
+
+    - title: Leadership Scholarship, SMWU
+      year: 2016
+      description:
+        - Acted as the president of the science student council & GSC member.
+        - 2 times awarded, $3805
+
+    - title: Samsung SW Scholarship, SWMU SCSC
+      year: 2015 – 2018
+      description:
+        - Awarded for academic excellence student on computer science.
+        - 5 times awarded, $266
+    
+    - title: Sookmyung Women’s University Scholarship, SMWU
+      year: 2015 – 2018
+      description:
+        - Awarded 1st place (21 major courses, 4.07/4.3) & 3x Academic Excellence.
+        - awarded $2,891
+    
+    - title: Club Room Environmental Contest, SMWU
+      year: 2014
+      description:
+        - Acted as the captain of the Natural Science Research Society.
+        - awarded $380
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: On-device AI
+      year: 2024 Summer
+      institution: Samsung Electronics, Seoul, Republic of Korea
+      description:
+      - "Lab Instructor - Designed and ran the practice classes."
+    
+    - title: Advanced Expert Course in Big Data, Fintech, and AI
+      year: 2024 Summer
+      institution: K-Digital Traning Program with Seoul National University, Seoul, Republic of Korea
+      description: 
+      - "Lab Instructor (Head TA) - Designed and ran the practice classes."
+    
+    - title: Ambient AI Boot Camp
+      year: 2023 Winter
+      institution: Seoul National University Graduate School of Data Science, Seoul, Republic of Korea
+      description:
+      - "Lab Instructor - Designed and ran the practice classes."
+    
+    - title: Ambient AI Platforms and Practice (M3239.005900)
+      year: 2022 Fall
+      institution: Seoul National University Graduate School of Data Science, Seoul, Republic of Korea
+      description:
+      - "Lab Instructor (Head TA) - Designed, ran the practice classes and built the testbeds."
+    
+    - title: Digital Computer Concept and Practice (035.001)
+      year: 2021 Fall
+      institution: Seoul National University Dept. of Computer Science and Engineering, Seoul, Republic of Korea
+      description:
+      - "Lab Instructor - Designed and ran the practice classes."
+    
+    - title: Computer Programming (M1522.000600)
+      year: 2019 Fall
+      institution: Seoul National University Dept. of Computer Science and Engineering, Seoul, Republic of Korea
+      description:
+      - "Lab Instructor - Designed and ran the practice classes."
+
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Software
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, Java Script, C/C++/C#, SQL, Java, R, Mathematica
+    - title: Platform
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Coral, Jetson, WebApp, System Programming, Android, Arduino, BLE networking, Unity, DBeaver, Bigquery, Neo4J, MongoDB, FPGA, GPU-Programming
+    - title: Frameworks
+      items:
+        - Torch, Keras, Tensorflow, Flask, React, Vue, D3, IBMFL(Federated Learning), OpenOOD
