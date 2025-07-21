@@ -3,6 +3,40 @@
 
 @string{aps = {American Physical Society,}}
 
+
+@inproceedings{lens,
+author = {Sehyun Park* and Dongheon Lee* and Ji Young Lee and Jaeyoung Chun and Ji Young Chang and Eunsu Baek and Eun Hyo Jin and Hyung‑Sin Kim†},
+title = {ColonOOD: A Complete Pipeline for Optical Diagnosis of Colorectal Polyps Integrating Out‑of‑Distribution Detection and
+Uncertainty Quantification},
+booktitle = {The Thirteenth International Conference on Learning Representations (ICLR) 2025},
+year = {2025},
+month = {April},
+abstract = {Domain shift remains a persistent challenge in deep-learning-based computer vision, often requiring extensive model modifications or large labeled datasets to address. Inspired by human visual perception, which adjusts input quality through corrective lenses rather than over-training the brain, we propose Lens, a novel camera sensor control method that enhances model performance by capturing high-quality images from the model's perspective rather than relying on traditional human-centric sensor control. Lens is lightweight and adapts sensor parameters to specific models and scenes in real-time. At its core, Lens utilizes VisiT, a training-free, model-specific quality indicator that evaluates individual unlabeled samples at test time using confidence scores without additional adaptation costs. To validate Lens, we introduce ImageNet-ES Diverse, a new benchmark dataset capturing natural perturbations from varying sensor and lighting conditions. Extensive experiments on both ImageNet-ES and our new ImageNet-ES Diverse show that Lens significantly improves model accuracy across various baseline schemes for sensor control and model modification while maintaining low latency in image captures. Lens effectively compensates for large model size differences and integrates synergistically with model improvement techniques. Our code and dataset are available at github.com/Edw2n/Lens.git.},
+code={https://github.com/Edw2n/Lens},
+pdf={https://openreview.net/pdf?id=He2FGdmsas},
+bibtex_show={true},
+preview={ImageNet-ES.jpg},
+selected={true},
+abbr={ICLR},
+tags={s4d},
+}
+
+@inproceedings{lens,
+author = {Eunsu Baek and Taesik Gong and Hyung‑Sin Kim},
+title = {Adaptive Camera Sensor for Vision Model},
+booktitle = {The Thirteenth International Conference on Learning Representations (ICLR) 2025},
+year = {2025},
+month = {April},
+abstract = {Domain shift remains a persistent challenge in deep-learning-based computer vision, often requiring extensive model modifications or large labeled datasets to address. Inspired by human visual perception, which adjusts input quality through corrective lenses rather than over-training the brain, we propose Lens, a novel camera sensor control method that enhances model performance by capturing high-quality images from the model's perspective rather than relying on traditional human-centric sensor control. Lens is lightweight and adapts sensor parameters to specific models and scenes in real-time. At its core, Lens utilizes VisiT, a training-free, model-specific quality indicator that evaluates individual unlabeled samples at test time using confidence scores without additional adaptation costs. To validate Lens, we introduce ImageNet-ES Diverse, a new benchmark dataset capturing natural perturbations from varying sensor and lighting conditions. Extensive experiments on both ImageNet-ES and our new ImageNet-ES Diverse show that Lens significantly improves model accuracy across various baseline schemes for sensor control and model modification while maintaining low latency in image captures. Lens effectively compensates for large model size differences and integrates synergistically with model improvement techniques. Our code and dataset are available at github.com/Edw2n/Lens.git.},
+code={https://github.com/Edw2n/Lens},
+pdf={https://openreview.net/pdf?id=He2FGdmsas},
+bibtex_show={true},
+preview={ImageNet-ES.jpg},
+selected={true},
+abbr={ICLR},
+tags={s4d},
+}
+
 @inproceedings{imagenet-es,
 author = {Eunsu Baek and Keondo Park and Jiyoon Kim and Hyung-Sin Kim},
 title = {Unexplored Faces of Robustness and Out-of-Distribution: Covariate Shifts in Environment and Sensor Domains},
