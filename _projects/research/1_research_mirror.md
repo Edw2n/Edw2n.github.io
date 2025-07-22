@@ -28,6 +28,11 @@ related_publications: false
     <p>Demo 2 : MIRROR aoplication scenario</p>
 </div>
 
+<div class="caption">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pi355L8BYkk?si=oJWozbvgINlfxJHR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Ubicomp2024 - paper presentation / FairComp2024 Invited Talk</p>
+</div>
+
 #### [Publications]
 <div class="publications">
    {% bibliography --query @*[tags=mirror] %}
