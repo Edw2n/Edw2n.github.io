@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sensing for DNN
+title: Adaptive Sensing for DNNs
 description: "S4D: Providing proper glasses (sensor control) would be better than solely depending on over-training the brain (neural network)!<p style='text-align:right; color:gray'>2023.08 - current</p>"
 img: assets/img/projects/s4d/s4d-main.png
 importance: 0
