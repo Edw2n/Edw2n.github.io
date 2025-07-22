@@ -10,6 +10,10 @@
 
 # "Virtual Try-On":
 
+"ESWA":
+  url: https://www.sciencedirect.com/journal/expert-systems-with-applications
+  color: "#0B1F3A"
+
 "ICLR":
   url: https://iclr.cc/
   color: "#1976D2"
