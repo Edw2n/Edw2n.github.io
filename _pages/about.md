@@ -6,7 +6,7 @@ subtitle: <a href='#'>Ph.D. Student</a> in SNU GSDS.
 
 profile:
   align: left
-  image: IMG_1784.JPG
+  image: IMG_1784.jpg
   image_circular: False # crops the image to make it circular
   more_info: >
     <p> </p>
