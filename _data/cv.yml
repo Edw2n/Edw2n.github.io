@@ -14,7 +14,15 @@
     - name: Languages
       value: Korean, English
     - name: Summary
-      value: "I have extensive experience in data-driven AI, focusing on high-quality data acquisition through sensor control. I collected new datasets (ImageNet-ES: 202K, ImageNet-ES-Natural: 115.2K) to address robustness and covariate shift issues. Proficient in domain adaptation, out-of-distribution detection, explainable AI, and model robustness, I have completed multiple projects and courses, served as a TA, and received several AI-related awards. My interests include Virtual Try-On, Accessibility, and Health applications."
+      value: >-
+        <strong>Ph.D. student</strong> at <strong>SNU GSDS</strong> whose research focuses on building
+        <span class="awesome"><strong>reliable real-world AI</strong></span> and
+        <span class="awesome"><strong>adaptive sensing for DNNs</strong></span>&mdash;improving robustness by optimizing
+        <span class="awesome"><em>sensor configurations</em></span> in <span class="awesome"><em>data acquisition</em></span>,
+        beyond scaling models alone. This idea is inspired by how humans adapt perception via active sensing
+        (e.g., corrective lenses or pupil dilation/constriction) in the wild.
+        <strong>To validate this concept</strong>, my research spans robustness benchmarking, adaptive sensing frameworks,
+        and a path toward next-generation AI, with first-author publications at <strong>CVPR, ICLR, and NeurIPS</strong>. My long-term goal is to build <span class="awesome"><strong>trustworthy embodied AI systems</strong></span> that learn to perceive and act adaptively in the real world toward scalable, human-aligned intelligence.
 
 
 - title: Education
