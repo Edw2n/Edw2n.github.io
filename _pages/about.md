@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 My current research focuses on making AI practical and responsible, with interests in Embodied AI, Adaptive Sensing for DNNs, OOD problems, domain adaptation, and generalization. Recently, I've been working on new sensing techniques for deep neural networks that enable clear vision, similar to how corrective glasses work.
 
 Feel free to explore and connect. Enjoy your visit! -->
-Hi, I’m **Eunsu Baek** — a Ph.D. student at the **Graduate School of Data Science**, *Seoul National University*, advised by **Prof. Hyung-Sin Kim**. I previously earned my Master’s in **HCI** and **visualization** at *HCIL Lab* under **Prof. Jinuk Seo**.
+Hi, I’m **Eunsu Baek** — a Ph.D. student at the **Graduate School of Data Science**, *Seoul National University*, advised by **Prof. Hyung-Sin Kim**. I previously earned my Master’s in **HCI** and **visualization** at *HCIL Lab* under **Prof. Jinwook Seo**.
 
 <!-- #Ressearch Interests: Make AI more **robust**, **reliable**, and **embodied**:
 **Adaptive Sensing for DNNs**, **Domain adaptation & generalization**, **Out-of-distribution (OOD) detection**
